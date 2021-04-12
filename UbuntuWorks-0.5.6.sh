@@ -1,8 +1,9 @@
 #!/bin/bash
+# #!/bin/sh
 # As used on Ubuntu 20.04.2. I am sure it will work on other versions as well. If not...
 #
 # Script that does the work for me installing the software I use onto Ubuntu 20.04.2
-# Comment out software that you do not wish to install
+# Comment out software that you do not wish to install.
 #
 # UbuntuWorks™ © Jonny P. Johnston 2021
 
@@ -31,12 +32,12 @@
 	sudo apt install -y git subversion
 	# add-apt-repository ppa:git-core/ppa
 	# apt update; apt install git
-	sudo apt install -y git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn db5.3-util libapache2-mod-svn subversion-tools
+	# sudo apt install -y git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn db5.3-util libapache2-mod-svn subversion-tools
 	sudo apt install -y samba
 	sudo apt install -y gnome-tweaks
 	sudo apt install -y gedit-plugins
 	sudo apt install -y gnome-sushi
-	sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+	# sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
 	# sudo apt autoremove
 	
 # LibreOffice 7 upgrade
